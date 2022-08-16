@@ -14,7 +14,7 @@ pipeline {
         stage('Source Code') {
             steps {
                 git url: 'https://github.com/Veerudevops1/game-of-life.git', 
-                branch: 'master'
+                    branch: 'master'
             }
 
         }
